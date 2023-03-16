@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.links}>
-        <Link href="/"> Home</Link>
-        <Link href="/about"> About</Link>
-        <Link href="/profile"> Profile</Link>
-        <Link href="/coins"> Coins</Link>
+        <Link href="/" className={styles.linksText}> Home</Link>
+        <Link href="/user" className={styles.linksText}> User</Link>
+        <Link href="/profile" className={styles.linksText}> Profile</Link>
+        <Link href="/coins" className={styles.linksText}> Coins</Link>
       </div>
     </div>
   );
